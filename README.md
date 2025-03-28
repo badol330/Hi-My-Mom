@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b4d12f52-63bc-4f3d-bd68-e3443a5e6e9f)# Hi-My-Mom
+
 Website spesial buat ibuku
 <!DOCTYPE html>
 <html lang="id">
