@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi My Mom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #333;
+        }
+        .container {
+            margin-top: 20vh;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff6699;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        button:hover {
+            background-color: #ff3366;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <audio id="bgm" autoplay loop>
+        <source src="background.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="page1" class="container">
+        <h1>Hi My Mom</h1>
+        <button onclick="nextPage(2)">Next</button>
+    </div>
+
+    <div id="page2" class="container hidden">
+        <h2>This is secret, please read alone..</h2>
+        <p>Don't tell anyone..</p>
+        <button onclick="nextPage(3)">Next</button>
+    </div>
+
+    <div id="page3" class="container hidden">
+        <h2>Happy Birthday, Mom!</h2>
+        <p
